@@ -288,7 +288,7 @@ if __name__ == '__main__':
     while i > 0:
         i = i - 1
         print('开始')
-        crack = Crack(word='欣望',searchId='searchText', bowtonID='click',url='http://xygs.egs.gov.cn/index.jspx')
+        crack = Crack(word='百度',searchId='searchText', bowtonID='click',url='http://xygs.egs.gov.cn/index.jspx')
         html = crack.crack()
         print('运行完毕')
         # print(html)
